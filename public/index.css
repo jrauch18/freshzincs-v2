@@ -9,11 +9,6 @@
 .u-section-1 .u-image-1 {
   width: 528px;
   height: 370px;
-  --animation-custom_in-translate_x: 300px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 1;
   margin: -79px 21px 0 auto;
 }
 
@@ -32,7 +27,17 @@
     margin-right: 404px;
   }
 
+  .u-section-1 .u-image-1 {
+    --animation-custom_in-translate_x: 300px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+    margin-top: 20px;
+  }
+
   .u-section-1 .u-text-2 {
+    margin-top: 20px;
     margin-right: 370px;
   }
 }
