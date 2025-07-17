@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 80;
 app.use(express.static(path.join(__dirname, 'public')));
 
 // If you want clean URLs, you can map e.g. `/about` → public/about.html
-app.get('/home',      (req, res) => res.sendFile(path.join(__dirname, 'public/index.html')));
+app.get('/',      (req, res) => res.sendFile(path.join(__dirname, 'public/home.html')));
 app.get('/about', (req, res) => res.sendFile(path.join(__dirname, 'public/about.html')));
 app.get('/contact', (req, res) => res.sendFile(path.join(__dirname, 'public/contact.html')));
 
